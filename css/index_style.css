@@ -1,0 +1,420 @@
+body{
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.main-header{
+    height: 100%;
+    background-image: url(../emages/bg1.jpg);
+    background-size: cover;
+    
+}
+.navbar .navbar-brand{
+    color: #fed136;
+    font-size: 28px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.navbar .nav-item .nav-link{
+    color: #fff;
+    padding: 1.3rem;
+    padding-left: 0;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar:after{
+      content: "";
+    text-align: center;
+    background-color: gray;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    width: 100%;
+height: 1;
+}
+.nav-item-contact{
+            position: relative;
+}
+.nav-item-contact:before{
+         content: "";
+    text-align: center;
+    background-color: gray;
+    position: absolute;
+    
+    left: 100%;
+    width: 1%;
+height: 100%; 
+}
+.navbar-toggler,.navbar-toggler-icon{
+    background-color: white!important;
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.nav-link:hover,.navbar-brand:hover {
+    color: gray!important;
+}
+.caption p{
+    font-size: 40px;
+}
+.caption h1{
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-read{
+    background-color: #00c3da  !important;
+}
+
+.btn-read:hover {
+    background-color:aqua!important;
+}
+.progessianal{
+font-size: 25px;
+    position: absolute;
+    margin-left: 15% !important;
+}
+.prof-parent {
+    width: 57%;
+    height: 50;
+    padding-left:42.5%;
+}
+
+.btn-read2{
+    background-color: white;
+    color: black !important;
+    margin-left: 40% !important;
+    text-align: center !important;
+    border-color: #dedede !important;
+}
+.btn-read2:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+
+
+.advisors{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.advisors h2{
+    color: #002147;
+    font-weight: 700
+}
+.advisor{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.advisor .advisor-overlay{
+    background-color: rgba(0, 195, 218, 0.9);
+    position: absolute;
+    height: 100%;
+    bottom: -100%;
+    left: 15px;
+    right: 15px;
+    transition: all 1s;
+}
+.advisor-overlay h4{
+  margin-top: 40% !important;
+    font-size: 90%
+}
+.advisor-overlay p{
+    
+    font-size: 10px;
+    
+}
+
+.advisor:hover .advisor-overlay{
+      bottom: -0%;
+}
+.links-Creative{
+        margin-right: 40%;
+
+    color: white;
+}
+.links-Creative:hover{
+    color: antiquewhite;
+}
+
+
+
+
+
+.upper{
+    font-size: 15px;
+    margin: 20px;
+    letter-spacing: 0.1em;
+}
+.WhatWeDoBg{
+    background-image: url(../emages/bg3.PNG);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 60%;
+}
+
+.WhatWeDo{
+    color: white;
+}
+
+.check-list{
+    list-style: none;
+}
+.check-list > li {
+    
+}
+
+.title>hr{
+    width: 40px;
+    margin: 20px 0 15px;
+    border-color: #1f1f1f;
+        margin-left: auto;
+    margin-right: auto;
+    transition: all 1s;
+}
+.title>hr:hover{
+    width: 10%;
+    
+}
+.filters{
+    
+    
+    list-style: none;
+        padding: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.filters .active{
+    color: #00c3da;
+    border-color: #00c3da;
+    border-radius: 50px;
+ border: 5px solid transparent !important;
+    box-sizing: border-box;
+
+}
+.filters>li{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    position: relative;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+
+.Works{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+
+}
+
+.Works h2{
+    color: #002147;
+    font-weight: 700
+}
+.Works{
+    position: relative;
+}
+.Works .advisor-info{
+    background-color: #fff;
+    position: absolute;
+    height: 40%;
+    bottom:-100%;
+    left:15px;
+    right:15px;
+    transition: all 1s;
+        transition-delay: 0.3s;
+}
+.Works-info span{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.Works:hover .advisor-info{
+       bottom:15px;
+}
+.Works img {
+        width:100%;
+    transition: all 1s;
+    transition-delay: 2s;
+}
+.Works:hover img{
+   transform: scale(1.2,1.2);
+}
+
+
+.Cheap{
+        border-top: 0;
+        background-color: #f7f7f7;
+        
+    }
+
+
+.card{
+    height: 350px;
+    width: 90% !important;
+  
+}
+
+.Num {
+    color: white;
+    margin-left: 10%;
+}
+
+
+.Nums{
+    color: white;
+   
+    margin-left: 5%;
+}
+
+
+ 
+.img-cv{
+    border-radius: 2%;
+    background-color: white;
+   width: 50%;
+    margin: auto!important;
+    margin-top: 20!important;
+    
+  
+}
+.img-cv img {
+    margin: auto;
+    border-radius: 90%;
+  
+    height: 150px!important;
+    background-color: white;
+   position: relative;
+    bottom: 40px;
+    
+}
+.img-cv h4{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+text-align: center;}
+
+.testimonial-info{
+      margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+ margin-left: 30%;
+    color: #787878;
+
+text-align: center;
+}
+img-cv p{
+    width: 50%;
+    margin-left: 10%;
+      margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+color: #787878;
+text-align: center;
+}
+
+.carousel-innerr{
+   
+    margin-top: 10%;
+    
+    
+}
+
+
+
+.marks
+{
+    margin-top: 10%!important;
+}
+.marks h6{
+    text-transform: uppercase;
+    
+    font-weight: 500;
+    font-size: 13px;
+    margin: auto;
+    text-align: center;
+}
+.marks img {
+    width: 90%;
+}
+
+.widget lu li{
+    list-style: none;
+    margin-top: 10%;
+   
+}
+.widget a{
+    color: gray;
+}
+.widget a:hover{
+    color: blue;
+}
+menu-footer-ul>li{
+    list-style: none !important;
+    background-color: black !important ;
+}
+
+.footer-widgets{
+    background-color: gainsboro;
+}
+
+
+
+
+.finsh a {
+    color: gray;
+}
+.finsh a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+@media (max-width: 800px)
+{
+    .navbar {
+        background-color: rgba(1,0,1,.6)!important; 
+        padding: 12px !important
+    }
+    .nav-link,.navbar-brand {
+    color: white;
+        font-size: 50%;
+        font-weight: 700;
+}
+    .caption p{
+         font-size: 20px 
+    }
+    .caption h1{
+         font-size: 60px 
+    }
+    .navbar .navbar-brand {
+     font-size: 20px        
+    }
+
+    
+    
+
+
+
+
